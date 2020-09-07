@@ -1,0 +1,232 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.1",
+  "hash": "cde9dc8db61bcd9647e7",
+  "publicPath": "/static/",
+  "outputPath": "/Users/matthewbert/Desktop/mental-help/build/static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "archive~post": "archive~post.module.js",
+    "post": "post.module.js",
+    "resources": [
+      "resources.module.js",
+      "resources.714c15e0f6487bcfec79.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "714c15e0f6487bcfec79.hot-update.json",
+      "size": 51,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "archive.module.js",
+      "size": 72896,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "archive~post.module.js",
+      "size": 46638,
+      "chunks": [
+        "archive~post"
+      ],
+      "chunkNames": [
+        "archive~post"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "fonts/Inter-Bold-LATIN.woff2",
+      "size": 33648,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Bold-US-ASCII.woff2",
+      "size": 22248,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Bold.woff2",
+      "size": 138872,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium-LATIN.woff2",
+      "size": 33232,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium-US-ASCII.woff2",
+      "size": 21828,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium.woff2",
+      "size": 137268,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold-LATIN.woff2",
+      "size": 33456,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold-US-ASCII.woff2",
+      "size": 22032,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold.woff2",
+      "size": 138088,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/sky.jpg",
+      "size": 58750,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "post.module.js",
+      "size": 113282,
+      "chunks": [
+        "post"
+      ],
+      "chunkNames": [
+        "post"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "resources.714c15e0f6487bcfec79.hot-update.js",
+      "size": 11684,
+      "chunks": [
+        "resources"
+      ],
+      "chunkNames": [
+        "resources"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "resources.module.js",
+      "size": 5210660,
+      "chunks": [
+        "resources"
+      ],
+      "chunkNames": [
+        "resources"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "resources": {
+      "chunks": [
+        "resources"
+      ],
+      "assets": [
+        "resources.module.js",
+        "resources.714c15e0f6487bcfec79.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "resources": {
+      "chunks": [
+        "resources"
+      ],
+      "assets": [
+        "resources.module.js",
+        "resources.714c15e0f6487bcfec79.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive~post",
+        "archive"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "post": {
+      "chunks": [
+        "archive~post",
+        "post"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "post.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
