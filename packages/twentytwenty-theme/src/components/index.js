@@ -31,6 +31,22 @@ const Theme = ({ state }) => {
       {/* Add some metatags to the <head> of the HTML. */}
       <MetaTitle />
       <Head>
+      <Head>
+      <meta name="description" content={state.frontity.description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@thementalgeek" />
+      <meta name="twitter:creator" content="@mattlearnsjs" />
+      <meta name="twitter:title" content="Mental Health Resources" />
+      <meta
+        name="twitter:description"
+        content="Mental Health Resource Database"
+      />
+      <meta
+        name="twitter:image"
+        content="https://matthewbert-60854f.ingress-comporellon.easywp.com/wp-content/uploads/2020/09/sreenshot.png"
+      />
+
+
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
         <link

@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "e9185abf36985be3cb0d",
+  "hash": "8dd37892f4d1d3c1cc7b",
   "publicPath": "/static/",
   "outputPath": "/Users/matthewbert/Desktop/mental-help/build/static",
   "assetsByChunkName": {
@@ -11,21 +11,10 @@
     "post": "post.module.js",
     "resources": [
       "resources.module.js",
-      "resources.32ac017c408efd11ea44.hot-update.js"
+      "resources.ee1c66efd3ca4dcef125.hot-update.js"
     ]
   },
   "assets": [
-    {
-      "name": "32ac017c408efd11ea44.hot-update.json",
-      "size": 51,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "archive.module.js",
       "size": 71764,
@@ -48,6 +37,17 @@
         "archive~post"
       ],
       "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ee1c66efd3ca4dcef125.hot-update.json",
+      "size": 51,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
@@ -143,8 +143,8 @@
       "emitted": false
     },
     {
-      "name": "resources.32ac017c408efd11ea44.hot-update.js",
-      "size": 119062,
+      "name": "resources.ee1c66efd3ca4dcef125.hot-update.js",
+      "size": 121395,
       "chunks": [
         "resources"
       ],
@@ -159,7 +159,7 @@
     },
     {
       "name": "resources.module.js",
-      "size": 5217557,
+      "size": 5219889,
       "chunks": [
         "resources"
       ],
@@ -178,7 +178,7 @@
       ],
       "assets": [
         "resources.module.js",
-        "resources.32ac017c408efd11ea44.hot-update.js"
+        "resources.ee1c66efd3ca4dcef125.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -191,7 +191,7 @@
       ],
       "assets": [
         "resources.module.js",
-        "resources.32ac017c408efd11ea44.hot-update.js"
+        "resources.ee1c66efd3ca4dcef125.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

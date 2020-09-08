@@ -101,7 +101,7 @@ const SiteDescription = styled.div`
   margin: 0;
   margin-top: 1rem;
   color: #6d6d6d;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: 500;
   display: none;
   letter-spacing: -0.0311em;
