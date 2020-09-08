@@ -10,7 +10,6 @@ import {
   SectionContainer
 } from "./post-item";
 import PostCategories from "./post-categories";
-import PostMeta from "./post-meta";
 import PostTags from "./post-tags";
 
 const Post = ({ state, actions, libraries }) => {
@@ -58,16 +57,13 @@ const Post = ({ state, actions, libraries }) => {
       <Header>
         <SectionContainer>
           {/* If the post has categories, render the categories */}
-          {post.categories && <PostCategories categories={categories} />}
+          {/*{post.categories && <PostCategories categories={categories} />}*/}
 
           <PostTitle
             as="h1"
             className="heading-size-1"
             dangerouslySetInnerHTML={{ __html: post.title.rendered }}
           />
-
-          {/* The post's metadata like author, publish date, and comments */}
-          <PostMeta item={post} />
         </SectionContainer>
       </Header>
 
@@ -98,9 +94,9 @@ export default connect(Post);
 const Header = styled(PostHeader)`
   background-color: #fff;
   margin: 0;
-  padding: 4rem 0;
+  padding: 2rem 0;
   @media (min-width: 700px) {
-    padding: 8rem 0;
+    padding: 3rem 0;
   }
 `;
 

@@ -2,22 +2,22 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "cde9dc8db61bcd9647e7",
+  "hash": "dcb35766a36ebce065ff",
   "publicPath": "/static/",
   "outputPath": "/Users/matthewbert/Desktop/mental-help/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "archive~post": "archive~post.module.js",
+    "archive~post": [
+      "archive~post.module.js",
+      "archive~post.0e20719a5fb91382d985.hot-update.js"
+    ],
     "post": "post.module.js",
-    "resources": [
-      "resources.module.js",
-      "resources.714c15e0f6487bcfec79.hot-update.js"
-    ]
+    "resources": "resources.module.js"
   },
   "assets": [
     {
-      "name": "714c15e0f6487bcfec79.hot-update.json",
-      "size": 51,
+      "name": "0e20719a5fb91382d985.hot-update.json",
+      "size": 54,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -28,7 +28,7 @@
     },
     {
       "name": "archive.module.js",
-      "size": 72896,
+      "size": 71764,
       "chunks": [
         "archive"
       ],
@@ -39,8 +39,23 @@
       "emitted": false
     },
     {
+      "name": "archive~post.0e20719a5fb91382d985.hot-update.js",
+      "size": 46018,
+      "chunks": [
+        "archive~post"
+      ],
+      "chunkNames": [
+        "archive~post"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "archive~post.module.js",
-      "size": 46638,
+      "size": 46095,
       "chunks": [
         "archive~post"
       ],
@@ -48,7 +63,7 @@
         "archive~post"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "fonts/Inter-Bold-LATIN.woff2",
@@ -132,7 +147,7 @@
     },
     {
       "name": "post.module.js",
-      "size": 113282,
+      "size": 111862,
       "chunks": [
         "post"
       ],
@@ -143,23 +158,8 @@
       "emitted": false
     },
     {
-      "name": "resources.714c15e0f6487bcfec79.hot-update.js",
-      "size": 11684,
-      "chunks": [
-        "resources"
-      ],
-      "chunkNames": [
-        "resources"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "resources.module.js",
-      "size": 5210660,
+      "size": 5209688,
       "chunks": [
         "resources"
       ],
@@ -177,8 +177,7 @@
         "resources"
       ],
       "assets": [
-        "resources.module.js",
-        "resources.714c15e0f6487bcfec79.hot-update.js"
+        "resources.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -190,8 +189,7 @@
         "resources"
       ],
       "assets": [
-        "resources.module.js",
-        "resources.714c15e0f6487bcfec79.hot-update.js"
+        "resources.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -203,6 +201,7 @@
       ],
       "assets": [
         "archive~post.module.js",
+        "archive~post.0e20719a5fb91382d985.hot-update.js",
         "archive.module.js"
       ],
       "children": {},
@@ -215,6 +214,7 @@
       ],
       "assets": [
         "archive~post.module.js",
+        "archive~post.0e20719a5fb91382d985.hot-update.js",
         "post.module.js"
       ],
       "children": {},

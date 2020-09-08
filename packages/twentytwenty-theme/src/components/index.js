@@ -33,6 +33,10 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;600;700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       {/* Accessibility: Provides ability to skip to main content */}

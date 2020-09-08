@@ -46,7 +46,7 @@ const Pagination = ({ state, actions, libraries }) => {
   );
 
   // get page link with page number
-  const getPageLink = (page) =>
+  const getPageLink = page =>
     libraries.source.stringify({ route, query, page });
 
   // Pagination - array of numbers/dots for pages
@@ -62,7 +62,7 @@ const Pagination = ({ state, actions, libraries }) => {
       <Direction>
         {previous && (
           <StyledLink link={previous}>
-            ← <DirectionItem>Newer</DirectionItem>
+            ← <DirectionItem>Back</DirectionItem>
           </StyledLink>
         )}
       </Direction>
@@ -92,7 +92,7 @@ const Pagination = ({ state, actions, libraries }) => {
       <Direction>
         {next && (
           <StyledLink link={next}>
-            <DirectionItem>Older</DirectionItem> →
+            <DirectionItem>Next</DirectionItem> →
           </StyledLink>
         )}
       </Direction>
@@ -100,12 +100,12 @@ const Pagination = ({ state, actions, libraries }) => {
   );
 };
 
-const getMaxWidth = (props) => maxWidths[props.size] || maxWidths["medium"];
+const getMaxWidth = props => maxWidths[props.size] || maxWidths["medium"];
 
 const maxWidths = {
   thin: "58rem",
   small: "80rem",
-  medium: "100rem",
+  medium: "100rem"
 };
 
 const inlineBlock = css`
@@ -148,13 +148,7 @@ const Direction = styled.div`
   display: inline-block;
 `;
 
-const DirectionItem = styled.span`
-  @media (min-width: 700px) {
-    &:after {
-      content: " Posts";
-    }
-  }
-`;
+const DirectionItem = styled.span``;
 
 const StyledLink = styled(Link)`
   text-decoration: none;

@@ -1,0 +1,17 @@
+webpackHotUpdate("resources",{
+
+/***/ "./packages/twentytwenty-theme/src/components/styles/global-styles.js":
+/*!****************************************************************************!*\
+  !*** ./packages/twentytwenty-theme/src/components/styles/global-styles.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /Users/matthewbert/Desktop/mental-help/packages/twentytwenty-theme/src/components/styles/global-styles.js: Support for the experimental syntax 'decorators-legacy' isn't currently enabled (4:1):\\n\\n\\u001b[0m \\u001b[90m 2 | \\u001b[39m\\u001b[36mimport\\u001b[39m sky from \\u001b[32m\\\"../../images/sky.jpg\\\"\\u001b[39m\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 3 | \\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 4 | \\u001b[39m\\u001b[33m@\\u001b[39m\\u001b[36mimport\\u001b[39m url(\\u001b[32m'https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;600;700&display=swap'\\u001b[39m)\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m   | \\u001b[39m\\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 5 | \\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 6 | \\u001b[39m\\u001b[36mconst\\u001b[39m cssReset \\u001b[33m=\\u001b[39m css\\u001b[32m`\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 7 | \\u001b[39m\\u001b[32m  html,\\u001b[39m\\u001b[0m\\n    at Object._raise (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/error.js:60:45)\\n    at Object.raiseWithData (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/error.js:55:17)\\n    at Object.expectOnePlugin (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/util.js:157:18)\\n    at Object.parseDecorator (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:353:10)\\n    at Object.parseDecorators (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:332:30)\\n    at Object.parseStatement (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:149:12)\\n    at Object.parseBlockOrModuleBlockBody (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:871:25)\\n    at Object.parseBlockBody (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:841:10)\\n    at Object.parseTopLevel (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/statement.js:55:10)\\n    at Object.parse (/Users/matthewbert/Desktop/mental-help/node_modules/@babel/parser/src/parser/index.js:57:10)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3BhY2thZ2VzL3R3ZW50eXR3ZW50eS10aGVtZS9zcmMvY29tcG9uZW50cy9zdHlsZXMvZ2xvYmFsLXN0eWxlcy5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./packages/twentytwenty-theme/src/components/styles/global-styles.js\n");
+
+/***/ }),
+
+/***/ "./packages/twentytwenty-theme/src/images/sky.jpg":
+false
+
+})

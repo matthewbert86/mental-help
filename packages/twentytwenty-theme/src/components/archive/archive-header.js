@@ -35,13 +35,12 @@ const ArchiveTitle = styled.h1`
   font-weight: 700;
   letter-spacing: -0.026666667em;
   margin: 0;
-
   @media (min-width: 700px) {
     font-size: 3.2rem;
   }
 `;
 
 const ColoredText = styled.span`
-  color: ${(props) => props.color};
+  color: ${props => props.color};
   text-transform: capitalize;
 `;

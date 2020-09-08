@@ -13,7 +13,7 @@ import InterSemiBoldLatin from "../../fonts/inter/Inter-SemiBold-LATIN.woff2";
 const fonts = {
   "us-ascii": [InterMediumUS, InterSemiBoldUS, InterBoldUS],
   latin: [InterMediumLatin, InterSemiBoldLatin, InterBoldLatin],
-  all: [InterMedium, InterSemiBold, InterBold],
+  all: [InterMedium, InterSemiBold, InterBold]
 };
 
 const FontFace = ({ state }) => {

@@ -97,7 +97,7 @@ export const SectionContainer = styled.div`
 export const PostTitle = styled.h1`
   margin: 0;
   @media (min-width: 700px) {
-    font-size: 3.4rem !important;
+    font-size: 2.8rem !important;
   }
 `;
 
@@ -111,9 +111,7 @@ const PostLink = styled(Link)`
 `;
 
 export const PostInner = styled(SectionContainer)`
-  padding-top: 5rem;
   @media (min-width: 700px) {
-    padding-top: 8rem;
   }
 `;
 
