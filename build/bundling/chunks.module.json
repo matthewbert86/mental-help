@@ -2,22 +2,22 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "dcb35766a36ebce065ff",
+  "hash": "e9185abf36985be3cb0d",
   "publicPath": "/static/",
   "outputPath": "/Users/matthewbert/Desktop/mental-help/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "archive~post": [
-      "archive~post.module.js",
-      "archive~post.0e20719a5fb91382d985.hot-update.js"
-    ],
+    "archive~post": "archive~post.module.js",
     "post": "post.module.js",
-    "resources": "resources.module.js"
+    "resources": [
+      "resources.module.js",
+      "resources.32ac017c408efd11ea44.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "0e20719a5fb91382d985.hot-update.json",
-      "size": 54,
+      "name": "32ac017c408efd11ea44.hot-update.json",
+      "size": 51,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -39,23 +39,8 @@
       "emitted": false
     },
     {
-      "name": "archive~post.0e20719a5fb91382d985.hot-update.js",
-      "size": 46018,
-      "chunks": [
-        "archive~post"
-      ],
-      "chunkNames": [
-        "archive~post"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "archive~post.module.js",
-      "size": 46095,
+      "size": 46506,
       "chunks": [
         "archive~post"
       ],
@@ -158,8 +143,23 @@
       "emitted": false
     },
     {
+      "name": "resources.32ac017c408efd11ea44.hot-update.js",
+      "size": 119062,
+      "chunks": [
+        "resources"
+      ],
+      "chunkNames": [
+        "resources"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "resources.module.js",
-      "size": 5209688,
+      "size": 5217557,
       "chunks": [
         "resources"
       ],
@@ -177,7 +177,8 @@
         "resources"
       ],
       "assets": [
-        "resources.module.js"
+        "resources.module.js",
+        "resources.32ac017c408efd11ea44.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -189,7 +190,8 @@
         "resources"
       ],
       "assets": [
-        "resources.module.js"
+        "resources.module.js",
+        "resources.32ac017c408efd11ea44.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -201,7 +203,6 @@
       ],
       "assets": [
         "archive~post.module.js",
-        "archive~post.0e20719a5fb91382d985.hot-update.js",
         "archive.module.js"
       ],
       "children": {},
@@ -214,7 +215,6 @@
       ],
       "assets": [
         "archive~post.module.js",
-        "archive~post.0e20719a5fb91382d985.hot-update.js",
         "post.module.js"
       ],
       "children": {},

@@ -72,6 +72,9 @@ const Main = styled.div`
   display: block;
   width: 70%;
   margin: 0 auto;
-
   padding-bottom: 20px;
+  @media (max-width: 700px) {
+    width: 95%;
+    margin: 0 auto;
+  }
 `;

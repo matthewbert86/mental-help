@@ -97,7 +97,7 @@ export const SectionContainer = styled.div`
 export const PostTitle = styled.h1`
   margin: 0;
   @media (min-width: 700px) {
-    font-size: 2.8rem !important;
+    font-size: 3.3rem !important;
   }
 `;
 
@@ -111,7 +111,9 @@ const PostLink = styled(Link)`
 `;
 
 export const PostInner = styled(SectionContainer)`
-  @media (min-width: 700px) {
+  p {
+    font-size: 1.2em;
+    font-family: "Kreon", serif;
   }
 `;
 

@@ -229,12 +229,31 @@ const elementBase = colors => css`
 
   a {
     color: ${colors.primary};
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:hover,
   a:focus {
     text-decoration: none;
+  }
+
+  .name-1 {
+    text-align: center;
+    margin: auto;
+    color: #83b35e;
+    font-size: 7.6rem;
+  }
+
+  .name-2 {
+    color: #5d87ab;
+    text-align: center;
+    margin: -32px auto 0 0;
+    font-size: 8.7rem;
+  }
+
+  .footer-name {
+    font-weight: bold;
+    font-size: 20px;
   }
 `;
 
