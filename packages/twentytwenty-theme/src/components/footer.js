@@ -33,7 +33,9 @@ const Footer = ({ state }) => {
         <Credits>
           <Copyright>
             &copy; {currentYear}{" "}
-            <Link link={state.frontity.url}>{state.frontity.title}</Link>
+            <a href="https://mental-help.vercel.app/">
+              Mental Health Resources
+            </a>
           </Copyright>
           <PoweredBy>
             Built by{" "}

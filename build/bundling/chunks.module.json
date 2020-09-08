@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "8dd37892f4d1d3c1cc7b",
+  "hash": "0e6c6dd5c70d7038ca66",
   "publicPath": "/static/",
   "outputPath": "/Users/matthewbert/Desktop/mental-help/build/static",
   "assetsByChunkName": {
@@ -11,10 +11,21 @@
     "post": "post.module.js",
     "resources": [
       "resources.module.js",
-      "resources.ee1c66efd3ca4dcef125.hot-update.js"
+      "resources.865c8782acb1d2c02e17.hot-update.js"
     ]
   },
   "assets": [
+    {
+      "name": "865c8782acb1d2c02e17.hot-update.json",
+      "size": 51,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
     {
       "name": "archive.module.js",
       "size": 71764,
@@ -25,7 +36,7 @@
         "archive"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "archive~post.module.js",
@@ -37,18 +48,7 @@
         "archive~post"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "ee1c66efd3ca4dcef125.hot-update.json",
-      "size": 51,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold-LATIN.woff2",
@@ -56,7 +56,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold-US-ASCII.woff2",
@@ -64,7 +64,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Bold.woff2",
@@ -72,7 +72,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium-LATIN.woff2",
@@ -80,7 +80,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium-US-ASCII.woff2",
@@ -88,7 +88,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-Medium.woff2",
@@ -96,7 +96,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold-LATIN.woff2",
@@ -104,7 +104,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold-US-ASCII.woff2",
@@ -112,7 +112,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "fonts/Inter-SemiBold.woff2",
@@ -120,7 +120,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "images/sky.jpg",
@@ -128,7 +128,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "post.module.js",
@@ -140,11 +140,11 @@
         "post"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "resources.ee1c66efd3ca4dcef125.hot-update.js",
-      "size": 121395,
+      "name": "resources.865c8782acb1d2c02e17.hot-update.js",
+      "size": 29418,
       "chunks": [
         "resources"
       ],
@@ -159,7 +159,7 @@
     },
     {
       "name": "resources.module.js",
-      "size": 5219889,
+      "size": 5223379,
       "chunks": [
         "resources"
       ],
@@ -178,7 +178,7 @@
       ],
       "assets": [
         "resources.module.js",
-        "resources.ee1c66efd3ca4dcef125.hot-update.js"
+        "resources.865c8782acb1d2c02e17.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -191,7 +191,7 @@
       ],
       "assets": [
         "resources.module.js",
-        "resources.ee1c66efd3ca4dcef125.hot-update.js"
+        "resources.865c8782acb1d2c02e17.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
